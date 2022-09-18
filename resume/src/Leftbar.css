@@ -1,0 +1,44 @@
+.leftbar__leftbar {
+    width: 35%;
+    background-color: #213044;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftbar__divider {
+    border-top: 1px solid white;
+    margin: 0.6rem 0 1rem 0;
+}
+
+.leftbar__text {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.leftbar__text--title {
+    padding-top: 3rem;
+}
+
+.leftbar__text--body {
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.leftbar__list {
+    list-style-type: none;
+}
+
+.leftbar__list li {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem 0;
+    gap: 8px;
+}
+
+.leftbar__icon {
+    font-size: 1rem;
+}

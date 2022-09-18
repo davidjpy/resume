@@ -1,0 +1,50 @@
+.content {
+    width: 65%; 
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__divider {
+    border-top: 1px solid #213044;
+    margin: 0.6rem 0 1rem 0;
+}
+
+.content__row-wrapper {
+    padding: 1.6rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.content__text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #213044;
+}
+
+.content__text--title {
+    padding-top: 3rem;
+}
+
+.content__text--subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    color: #213044;
+    font-size: 1.1rem;
+}
+
+.content__text--body {
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content__list {
+    list-style-position: inside;
+}
+
+.content__list li {
+    padding: 1rem 0 0.2rem 2rem;
+    text-indent: -1.4rem;
+}
