@@ -44,7 +44,7 @@ const Leftbar = () => {
                 <div className='leftbar__divider' />
                 <ul className='leftbar__list'>
                     <li className='leftbar__text leftbar__text--body'>
-                        JavaScript
+                        JavaScript / TypeScript
                     </li>
                     <li className='leftbar__text leftbar__text--body'>
                         Python
