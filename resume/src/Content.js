@@ -10,26 +10,23 @@ const Content = () => {
                 <h3 className='content__text content__text--title'>WORK EXPERIENCE</h3>
                 <div className='content__divider' />
                 <div className='content__row-wrapper' style={{ paddingTop: 0 }}>
-                    <div style={{ display: 'flex' }}>
-                        <h5 className='content__text content__text--subtitle' style={{ flex: 4 }}>Assistant Building Surveyor</h5>
-                        <p style={{ flex: 2.2, textAlign: 'start' }} className='content__text content__text--body'>July 2021 - January 2022</p>
-                    </div>
+                    <h5 className='content__text content__text--subtitle' style={{ flex: 4 }}>Assistant Building Surveyor</h5>
                     <p className='content__text content__text--body'>Easy Living Consultants Limited</p>
+                    <p className='content__text content__text--body'>July 2021 - January 2022</p>
                     <ul className='content__list'>
                         <li className='content__text content__text--body'>Specialize in preparation of building plans, such as AutoCAD drawing for various addition & alteration and lifts project for local schools</li>
                         <li className='content__text content__text--body'>Study different aspects of building control and design patterns behind the project and investigated in client’s preferences and potential solutions to problems</li>
                     </ul>
                 </div>
                 <div>
-                    <div style={{ display: 'flex' }}>
-                        <h5 className='content__text content__text--subtitle' style={{ flex: 4 }}>Research Assistant</h5>
-                        <p className='content__text content__text--body' style={{ flex: 2.2, textAlign: 'start' }}>January 2021 - Present</p>
-                    </div>
+                    <h5 className='content__text content__text--subtitle' style={{ flex: 4 }}>Research Assistant (Software Development)</h5>
                     <p className='content__text content__text--body'>Hong Kong Industrial Artificial Intelligence and Robotics Centre</p>
+                    <p className='content__text content__text--body'>January 2021 - Present</p>
                     <ul className='content__list'>
-                        <li className='content__text content__text--body'>Design and implement web-based solutions and develop dashboards with modern frameworks, including MERN stack, Django and SQL database for local corporations, such as MTR, Hactl and Protechnic</li>
-                        <li className='content__text content__text--body'>Perform code review and handle merge requests regularly for team members' work according to the company's internal code guide</li>
-                        <li className='content__text content__text--body'>Setup IoT devices and secure network connection and data transfer between the IoT devices and the server and the database</li>
+                        <li className='content__text content__text--body'>Designed and implemented web-based solutions with modern frameworks, such as MERN stack, Django and SQL database</li>
+                        <li className='content__text content__text--body'>Identified and fixed potential bugs and implemented performance optimization of existing websites</li>
+                        <li className='content__text content__text--body'>configured and secured network connection and dataflow between remote IoT devices and local server and SQL database</li>
+                        <li className='content__text content__text--body'>Performed code review and handled merge requests regularly for team members' work according to the company's internal code guide</li>
                     </ul>
                 </div>
             </div>

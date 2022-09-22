@@ -24,7 +24,7 @@
 }
 
 .content__text--title {
-    padding-top: 3rem;
+    padding-top: 2.6rem;
 }
 
 .content__text--subtitle {
@@ -36,15 +36,15 @@
 .content__text--body {
     font-size: 0.9rem;
     text-align: justify;
-    line-height: 22px;
+    line-height: 24px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .content__list {
-    list-style-position: inside;
+    list-style-position: outside;
 }
 
 .content__list li {
-    padding: 1rem 0 0.2rem 2rem;
-    text-indent: -1.4rem;
+    margin-left: 1.4rem;
+    padding: 0.8rem 0;
 }

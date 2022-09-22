@@ -3,7 +3,8 @@ import { IoMdMail } from 'react-icons/io';
 import {
     FaPhoneSquareAlt,
     FaLinkedin,
-    FaGithubSquare
+    FaGithubSquare,
+    FaExternalLinkSquareAlt
 } from 'react-icons/fa';
 
 const Leftbar = () => {
@@ -14,7 +15,7 @@ const Leftbar = () => {
                 <h3 className='leftbar__text leftbar__text--title' style={{ paddingTop: 0 }}>ABOUT ME</h3>
                 <div className='leftbar__divider' />
                 <p className='leftbar__text leftbar__text--body'>
-                    Passionate and self-motivated web developer with experience in delivering optimized web-based solutions across diverse industries, including creating reusable functions, optimizing application performance and troubleshooting complex issues. Also, a progressive learner and team player with an ambition to become a full-stack developer.
+                    Dedicated and self-driven web developer with expertise in producing optimal web-based solutions for a range of sectors. This includes building reusable functions, optimising application performance, and debugging tricky problems
                 </p>
             </div>
             <div>
@@ -44,7 +45,7 @@ const Leftbar = () => {
                 <div className='leftbar__divider' />
                 <ul className='leftbar__list'>
                     <li className='leftbar__text leftbar__text--body'>
-                        JavaScript
+                        JavaScript / TypeScript
                     </li>
                     <li className='leftbar__text leftbar__text--body'>
                         Python
@@ -53,10 +54,13 @@ const Leftbar = () => {
                         React.js / Express.js / Node.js
                     </li>
                     <li className='leftbar__text leftbar__text--body'>
-                        MongoDB
+                        MongoDB / Postgresql
                     </li>
                     <li className='leftbar__text leftbar__text--body'>
                         Django
+                    </li>
+                    <li className='leftbar__text leftbar__text--body'>
+                        Git
                     </li>
                     <li className='leftbar__text leftbar__text--body'>
                         Amazon Web Services
@@ -75,6 +79,26 @@ const Leftbar = () => {
                     </li>
                     <li className='leftbar__text leftbar__text--body'>
                         Mandarin
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 className='leftbar__text leftbar__text--title'>PROJECTS</h3>
+                <div className='leftbar__divider' />
+                <ul className='leftbar__list'>
+                    <h5 className='leftbar__text leftbar__text--body'>WildBear</h5>
+                    <li className='leftbar__text leftbar__text--body'>
+                        <FaGithubSquare className='leftbar__icon' />
+                        github.com/davidjpy/e-commerce/
+                    </li>
+                    <li className='leftbar__text leftbar__text--body'>
+                        <FaExternalLinkSquareAlt className='leftbar__icon' />
+                        wildbear-shop.com/
+                    </li>
+                    <h5 className='leftbar__text leftbar__text--body'>J-Travel</h5>
+                    <li className='leftbar__text leftbar__text--body'>
+                        <FaGithubSquare className='leftbar__icon' />
+                        github.com/davidjpy/jtravel/
                     </li>
                 </ul>
             </div>

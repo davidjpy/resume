@@ -1,7 +1,7 @@
 .leftbar__leftbar {
     width: 35%;
     background-color: #213044;
-    padding: 2rem;
+    padding: 2rem 1.6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@
 }
 
 .leftbar__text--title {
-    padding-top: 3rem;
+    padding-top: 2.4rem;
 }
 
 .leftbar__text--body {
@@ -35,10 +35,16 @@
 .leftbar__list li {
     display: flex;
     align-items: center;
-    padding: 0.4rem 0;
+    padding: 0.3rem 0;
     gap: 8px;
 }
 
 .leftbar__icon {
     font-size: 1rem;
+}
+
+.leftbar__list h5 {
+    padding: 0.6rem 0 0.2rem 0;
+    font-style: italic;
+    text-decoration: underline;
 }

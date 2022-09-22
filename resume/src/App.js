@@ -10,16 +10,16 @@ function App() {
     const componentRef = useRef();
 
     return (
-        /*         <>
-                    <ReactToPrint 
-                        trigger={() => <button>Print</button>}
-                        content={() => componentRef.current}
-                    />
-                </> */
-        <div ref={componentRef} className='resume'>
-            <Leftbar />
-            <Content />
-        </div>
+        <>
+            <ReactToPrint
+                trigger={() => <button>Print</button>}
+                content={() => componentRef.current}
+            />
+            <div ref={componentRef} className='resume'>
+                <Leftbar />
+                <Content />
+            </div>
+        </>
     );
 }
 
