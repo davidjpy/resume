@@ -18,7 +18,7 @@
 }
 
 .leftbar__text--title {
-    padding-top: 2.4rem;
+    padding-top: 2.2rem;
 }
 
 .leftbar__text--body {
@@ -35,7 +35,7 @@
 .leftbar__list li {
     display: flex;
     align-items: center;
-    padding: 0.3rem 0;
+    padding: 0.2rem 0;
     gap: 8px;
 }
 

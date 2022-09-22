@@ -48,16 +48,13 @@ const Leftbar = () => {
                         JavaScript / TypeScript
                     </li>
                     <li className='leftbar__text leftbar__text--body'>
-                        Python
-                    </li>
-                    <li className='leftbar__text leftbar__text--body'>
                         React.js / Express.js / Node.js
                     </li>
                     <li className='leftbar__text leftbar__text--body'>
-                        MongoDB / Postgresql
+                        Python / Django
                     </li>
                     <li className='leftbar__text leftbar__text--body'>
-                        Django
+                        MongoDB / Postgresql
                     </li>
                     <li className='leftbar__text leftbar__text--body'>
                         Git

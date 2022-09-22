@@ -24,7 +24,7 @@
 }
 
 .content__text--title {
-    padding-top: 2.6rem;
+    padding-top: 2.4rem;
 }
 
 .content__text--subtitle {
@@ -46,5 +46,5 @@
 
 .content__list li {
     margin-left: 1.4rem;
-    padding: 0.8rem 0;
+    padding: 0.5rem 0;
 }
